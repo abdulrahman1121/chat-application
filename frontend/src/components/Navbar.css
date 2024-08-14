@@ -1,0 +1,26 @@
+#navbar {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 110px;
+}
+
+.navbar-container {
+    display: flex;
+    background-color: #ff686b;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.navbar-icon {
+    font-size: 70px;
+    color: white;
+    cursor: pointer;
+    transition: color 0.3 ease;
+}
+
+.navbar-icon:hover {
+    color: #54d94d;
+}
