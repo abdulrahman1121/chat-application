@@ -51,6 +51,7 @@
     padding: 30px;
     margin: 5px;
     word-wrap: break-word;
+    color: white;
 }
 
 .direct-message:hover {
