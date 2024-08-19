@@ -1,0 +1,9 @@
+.direct-message-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #424040;
+    margin: 10px;
+    border-radius: 20px;
+    flex: 1;
+    min-width: 0;
+}
