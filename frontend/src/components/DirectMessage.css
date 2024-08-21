@@ -3,7 +3,53 @@
     flex-direction: column;
     background-color: #424040;
     margin: 10px;
-    border-radius: 20px;
+    border-radius: 0px;
     flex: 1;
     min-width: 0;
+}
+
+.direct-message-header {
+    align-items: center;
+    z-index: 1;
+    background-color: #424040;
+    display: flex;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    height: 115px;
+    border-bottom: 5px solid #292929;
+}
+
+h1 {
+    color: white;
+}
+
+.direct-message-content {
+    display: flex;
+    padding: 20px;
+    background-color: #363434;
+    height: 100%;
+}
+
+.message-container {
+    margin-top: auto;
+    padding: 10px;
+    width: 100%;
+    background-color: #424040;
+    z-index: 1;
+    box-sizing: border-box;
+    border-radius: 0px;
+}
+
+.message-bar {
+    background-color: #292929;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #424040;
+    display: flex;
+    font-size: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
 }
