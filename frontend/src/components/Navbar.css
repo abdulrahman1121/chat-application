@@ -46,7 +46,22 @@
     background-color: #6a2b2d;
 }
 
-.avatar {
-    font-size: 30px;
-    text-align: center;
+.sign-in-wrapper {
+    font-size: small;
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+    margin-top: 25px;
+    margin-bottom: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5px;
 }
+
+.cl-avatarBox {
+    width: 60px;
+    height: 60px;
+}
+
+
