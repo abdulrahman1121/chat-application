@@ -15,23 +15,19 @@
     background-color: #424040;
     z-index: 1;
     box-sizing: border-box;
-    border-radius: 20px;
+    border-radius: 0px;
 }
 
 .search-bar {
     background-color: #292929;
     width: 100%;
-    border-radius: 20px;
+    border-radius: 10px;
     border: 1px solid #424040;
     display: flex;
     font-size: 20px;
     padding: 10px;
     box-sizing: border-box;
     outline: none;
-}
-
-.search-bar:focus {
-    border-color: #ff686b;
 }
 
 .messagebody-container {
@@ -42,16 +38,23 @@
     justify-content: flex-start;
     width: 100%;
     overflow-y: auto;
-    border-radius: 20px;
+    border-radius: 0px;
 }
 
 .messagebody-container::-webkit-scrollbar {
-    width: 0px;
+    width: 10px;
 }
 
 .messagebody-container::-webkit-scrollbar-thumb {
-    background: transparent;
+    background: #7a7a7a;
+    border-radius: 0px;
 }
+
+.messagebody-container::-webkit-scrollbar-thumb:hover {
+    background: #919090;
+    border-radius: 0px;
+}
+
 
 .messagebody-container::-webkit-scrollbar-track {
     background: transparent;
@@ -60,7 +63,7 @@
 
 .direct-message {
     background-color: #424040;
-    border-radius: 20px;
+    border-radius: 10px;
     padding: 30px;
     margin: 5px;
     word-wrap: break-word;
