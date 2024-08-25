@@ -1,6 +1,6 @@
 const admin = require('firebase-admin');
 // Path to service account file
-const serviceAccount = require('./config/codeconnect-525cc-firebase-adminsdk-re7p3-c87e7e4bb0.json');
+const serviceAccount = require('./config/codeconnect-525cc-firebase-adminsdk-re7p3-e42d580081.json');
 
 // Initalize Firebase Admin
 admin.initializeApp({

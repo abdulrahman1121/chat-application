@@ -15,7 +15,7 @@ app.post('/test', async (req, res) => {
 
         // Read from databse
         const snapshot = await db.ref('test').once('value');
-        const data = snapshot.val;
+        const data = snapshot.val();
 
         res.status(200).json({ success: true, data});
     } catch(error) {
