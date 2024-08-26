@@ -1,7 +1,7 @@
-import Header from '../components/Header';
-import MessageBody from '../components/MessageBody';
-import Navbar from '../components/Navbar';
-import DirectMessage from '../components/DirectMessage';
+import Header from '../components/Header'
+import MessageBody from '../components/MessageBody'
+import Navbar from '../components/Navbar'
+import DirectMessage from '../components/DirectMessage'
 import './MessagingPage.css'
 
 export default function MessagingPage() {

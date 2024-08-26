@@ -1,0 +1,12 @@
+.banner {
+    background-color: #424040;
+    margin-left: 120px;
+    margin-top: 10px;
+    margin-right: 10px;
+    height: max-content;
+}
+
+#banner-content {
+    text-align: left;
+    padding-left: 20px;
+}
