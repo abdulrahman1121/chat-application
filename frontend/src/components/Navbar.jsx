@@ -4,7 +4,6 @@ import ForumRoundedIcon from '@mui/icons-material/ForumRounded';
 import TerminalRoundedIcon from '@mui/icons-material/TerminalRounded';
 import CalendarMonthRoundedIcon from '@mui/icons-material/CalendarMonthRounded';
 import { SignedIn, SignedOut, SignInButton, UserButton } from '@clerk/clerk-react'
-import { Link } from 'react-router-dom'
 
 
 export default function Navbar() {
@@ -19,10 +18,10 @@ export default function Navbar() {
                         <UserButton />
                     </SignedIn>
                 </div>
-                <Link to="/home"><HomeRoundedIcon fontSize='large' className="navbar-icon" /></Link>
-                <Link to="/messages"><ForumRoundedIcon fontSize='large' className="navbar-icon" /></Link>
-                <Link to="/assignments"><TerminalRoundedIcon fontSize='large' className="navbar-icon" /></Link>
-                <Link to="*"><CalendarMonthRoundedIcon fontSize='large' className="navbar-icon" /></Link>
+                <HomeRoundedIcon fontSize='large' className="navbar-icon"></HomeRoundedIcon>
+                <ForumRoundedIcon fontSize='large' className="navbar-icon"></ForumRoundedIcon>
+                <TerminalRoundedIcon fontSize='large' className="navbar-icon"></TerminalRoundedIcon>
+                <CalendarMonthRoundedIcon fontSize='large' className="navbar-icon"></CalendarMonthRoundedIcon>
             </div>
         </div>
     )
