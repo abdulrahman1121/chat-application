@@ -9,10 +9,10 @@ export default function LandingPage() {
             <Banner title="Dashboard" /> 
             <div className='containers'>
                 <div className='container left-container'>
-                    <h2>left container</h2>
+                    <h2>Project Information Container</h2>
                 </div>
                 <div className='container right-container'>
-                    <h2>right container</h2>
+                    <h2>Help Desk Container</h2>
                 </div>
             </div>
         </div>
