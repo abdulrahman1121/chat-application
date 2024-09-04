@@ -1,5 +1,6 @@
 import React from 'react';
 import './DirectMessage.css';
+import SendButton from './SendButton';
 
 export default function DirectMessage() {
     return (
@@ -9,7 +10,8 @@ export default function DirectMessage() {
             </div>
             <div className='direct-message-content'>Direct messages go here</div>
             <div className='message-container'>
-                <input type='text' placeholder='Message' className='message-bar'/> 
+                <input type='text' placeholder='Message' className='message-bar' />
+                <SendButton />
             </div>
         </div>
     )
