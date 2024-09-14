@@ -30,6 +30,8 @@ h1 {
     padding: 20px;
     background-color: #363434;
     height: 100%;
+    max-height: 400px; /* Adjust as per your layout */
+    overflow-y: scroll;
 }
 
 .message-container {
@@ -55,4 +57,23 @@ h1 {
     box-sizing: border-box;
     outline: none;
     margin-right: 10px;
+}
+
+.message {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 8px;
+    max-width: 80%;
+}
+
+.sent {
+    background-color: #646cff;
+    align-self: flex-end;
+    color: white;
+}
+
+.received {
+    background-color: #292929;
+    align-self: flex-start;
+    color: white;
 }

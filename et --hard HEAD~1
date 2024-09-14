@@ -1,0 +1,227 @@
+[33mcommit ab0953be459b05d3a4add4447fb90319a331051e[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: ef7e4c9 fc8ba9a
+Author: abdulrahman1121 <abdallrahmaelmi456@gmail.com>
+Date:   Mon Sep 2 22:50:40 2024 -0700
+
+    Merge branch 'main' of https://github.com/abdulrahman1121/chat-application
+
+[33mcommit ef7e4c96ddea7708d01555263ceba57676e77672[m
+Author: abdulrahman1121 <abdallrahmaelmi456@gmail.com>
+Date:   Mon Sep 2 22:50:27 2024 -0700
+
+    Created a messageController file for sending and retrieving messages
+
+[33mcommit fc8ba9af1e27b5235223f65cc6616a7ad20ea40c[m
+Author: Quentin Chen <quentinchen2164@example.com>
+Date:   Thu Aug 29 00:16:24 2024 -0700
+
+    page-routing/navbar-functionality/message-page-ui-changes
+
+[33mcommit 32c7c702396baf617c0fd21b43ba0a5f6707975a[m
+Merge: 6a37e31 56338cd
+Author: Abdulrahman Elmi <92565820+abdulrahman1121@users.noreply.github.com>
+Date:   Wed Aug 28 23:47:40 2024 -0700
+
+    Merge pull request #10 from abdulrahman1121/retry-page-routing-branch
+    
+    retry-page-routing
+
+[33mcommit 6a37e3190a39175ddda172153cf418f92053cac0[m
+Merge: 2e4f77f 57af0b3
+Author: Abdulrahman Elmi <92565820+abdulrahman1121@users.noreply.github.com>
+Date:   Wed Aug 28 23:27:56 2024 -0700
+
+    Merge pull request #9 from abdulrahman1121/page-routing
+    
+    Page routing
+
+[33mcommit 57af0b3d173809eae82129c13676e27a7f240d0a[m[33m ([m[1;31morigin/page-routing[m[33m, [m[1;32mpage-routing[m[33m)[m
+Merge: f67db7f 2e4f77f
+Author: abdulrahman1121 <abdallrahmaelmi456@gmail.com>
+Date:   Wed Aug 28 23:24:39 2024 -0700
+
+    Merge branch 'main' into page-routing
+
+[33mcommit 56338cd9197e17c0fc21f88b8b0a0242d916ba4f[m[33m ([m[1;31morigin/retry-page-routing-branch[m[33m)[m
+Author: Quentin Chen <quentinchen2164@example.com>
+Date:   Wed Aug 28 23:11:59 2024 -0700
+
+    retry-page-routing
+
+[33mcommit f67db7f5febb1f12882af8dfcd4bd292ece2421e[m[33m ([m[1;32mbackup-page-routing[m[33m, [m[1;32mbackup-main[m[33m)[m
+Author: Quentin Chen <quentinchen2164@example.com>
+Date:   Tue Aug 27 00:11:58 2024 -0700
+
+    changed-message-bar-container-color
+
+[33mcommit 2e4f77fde2ce79a2da0ec40e3497d61e4c915792[m
+Author: abdulrahman1121 <abdallrahmaelmi456@gmail.com>
+Date:   Mon Aug 26 21:35:59 2024 -0700
+
+    Connected backend to firebase database
+
+[33mcommit 46ab05e02d332f212f73165cff3a77a673ebea2d[m
+Author: Quentin Chen <quentinchen2164@example.com>
+Date:   Sun Aug 25 17:18:20 2024 -0700
+
+    page-routing/page-formatting/new-pages
+
+[33mcommit 29c3be24d8b99d408f7f3ac73c51e6ed2756c2e3[m
+Author: Quentin Chen <quentinchen2164@example.com>
+Date:   Sun Aug 25 17:13:33 2024 -0700
+
+    page-routing/page-formatting/new-pages
+
+[33mcommit 6702b040e8eae5c7d85217d693339ec053663eb4[m
+Author: abdulrahman1121 <abdallrahmaelmi456@gmail.com>
+Date:   Sat Aug 24 23:21:49 2024 -0700
+
+    Protected sensitive files and connected to database
+
+[33mcommit bf259ad65549f750612179e905e62aa3677a7799[m
+Merge: 422e8e8 6097306
+Author: abdulrahman1121 <abdallrahmaelmi456@gmail.com>
+Date:   Sat Aug 24 23:01:27 2024 -0700
+
+    Finished Merge
+
+[33mcommit 687e43aa518fca31adf9f3bc005407a392b3b49e[m
+Merge: 4b8d6d9 b52ed44
+Author: Abdulrahman Elmi <92565820+abdulrahman1121@users.noreply.github.com>
+Date:   Sat Aug 24 21:30:39 2024 -0700
+
+    Merge pull request #6 from abdulrahman1121/user-authentication
+    
+    Added User Authentication
+
+[33mcommit 60973065e8d8d0c15111eee3bad31f262f42ad9d[m
+Merge: 429eff6 eb2feb4
+Author: Abdulrahman Elmi <92565820+abdulrahman1121@users.noreply.github.com>
+Date:   Sat Aug 24 21:30:39 2024 -0700
+
+    Merge pull request #6 from abdulrahman1121/user-authentication
+    
+    Added User Authentication
+
+[33mcommit 422e8e85fda420579ec3aa797c2ecbfa9692ded4[m
+Author: abdulrahman1121 <abdallrahmaelmi456@gmail.com>
+Date:   Sat Aug 24 21:23:46 2024 -0700
+
+    Connected the backend to firebase database
+
+[33mcommit a74b5181bb6b8914d18e9d55f57622869730abdc[m
+Author: abdulrahman1121 <abdallrahmaelmi456@gmail.com>
+Date:   Sat Aug 24 20:07:29 2024 -0700
+
+    Connected the backend to the firebase database and secured the sensitive file
+
+[33mcommit 8f9b081385f568aa5fc6cf2913fc39847562aa2f[m
+Merge: 43d0baf 429eff6
+Author: abdulrahman1121 <abdallrahmaelmi456@gmail.com>
+Date:   Sat Aug 24 19:59:43 2024 -0700
+
+    Merge branch 'main' of https://github.com/abdulrahman1121/chat-application
+
+[33mcommit 43d0baff57d66e1d9a7240026c277735ae9b448c[m
+Author: abdulrahman1121 <abdallrahmaelmi456@gmail.com>
+Date:   Sat Aug 24 19:59:05 2024 -0700
+
+    Connected the backend to the Firebase database
+
+[33mcommit b52ed4479328ed93fdf041d10a658535f0860ef1[m
+Author: Quentin Chen <quentinchen2164@example.com>
+Date:   Sat Aug 24 13:30:04 2024 -0700
+
+    Added user authentication
+
+[33mcommit eb2feb48c0018e84fb6967ab36c510a38a35a05e[m[33m ([m[1;31morigin/user-authentication[m[33m)[m
+Author: Quentin Chen <quentinchen2164@example.com>
+Date:   Sat Aug 24 13:30:04 2024 -0700
+
+    Added user authentication
+
+[33mcommit 4b8d6d9b6cad7c9c3f7c68d8fff8bce8908f055f[m
+Merge: f665f92 6e52b8b
+Author: Abdulrahman Elmi <92565820+abdulrahman1121@users.noreply.github.com>
+Date:   Tue Aug 20 18:39:06 2024 -0700
+
+    Merge pull request #4 from abdulrahman1121/message-page-media-queries-and-message-body
+    
+    Reworked UI of Messages Page and Added DM Container
+
+[33mcommit 429eff6ca8fe5765821884335cc81326b07735ee[m
+Merge: 2614544 835a1d5
+Author: Abdulrahman Elmi <92565820+abdulrahman1121@users.noreply.github.com>
+Date:   Tue Aug 20 18:39:06 2024 -0700
+
+    Merge pull request #4 from abdulrahman1121/message-page-media-queries-and-message-body
+    
+    Reworked UI of Messages Page and Added DM Container
+
+[33mcommit 6e52b8b0a189b434229dac34285bd48e0d6bd301[m
+Merge: 012fd88 f665f92
+Author: Abdulrahman Elmi <92565820+abdulrahman1121@users.noreply.github.com>
+Date:   Mon Aug 19 23:16:53 2024 -0700
+
+    Merge pull request #5 from abdulrahman1121/main
+    
+    Merge pull request #3 from abdulrahman1121/message-page-media-queries…
+
+[33mcommit 835a1d504a8026ef9a54c8a529743d97e1a0f1fb[m[33m ([m[1;31morigin/message-page-media-queries-and-message-body[m[33m)[m
+Merge: 476e947 2614544
+Author: Abdulrahman Elmi <92565820+abdulrahman1121@users.noreply.github.com>
+Date:   Mon Aug 19 23:16:53 2024 -0700
+
+    Merge pull request #5 from abdulrahman1121/main
+    
+    Merge pull request #3 from abdulrahman1121/message-page-media-queries…
+
+[33mcommit 012fd8848537dde8ed443ca742ab1446560fda4a[m
+Author: Quentin Chen <quentinchen2164@example.com>
+Date:   Mon Aug 19 18:31:13 2024 -0700
+
+    reworked UI of messages page/added DM container/made container edges square
+
+[33mcommit 476e9478866ad29f810a724a035de1f083243989[m
+Author: Quentin Chen <quentinchen2164@example.com>
+Date:   Mon Aug 19 18:31:13 2024 -0700
+
+    reworked UI of messages page/added DM container/made container edges square
+
+[33mcommit 2614544cbecb374e33785d5ef8d557c3a4bca966[m
+Merge: cc587e5 cbc8109
+Author: Abdulrahman Elmi <92565820+abdulrahman1121@users.noreply.github.com>
+Date:   Mon Aug 19 07:58:30 2024 -0700
+
+    Merge pull request #3 from abdulrahman1121/message-page-media-queries-and-message-body
+    
+    reworked messaging page
+
+[33mcommit f665f92073ba912ede71d8862e3a72e7904297a6[m
+Merge: 6584e76 92bf432
+Author: Abdulrahman Elmi <92565820+abdulrahman1121@users.noreply.github.com>
+Date:   Mon Aug 19 07:58:30 2024 -0700
+
+    Merge pull request #3 from abdulrahman1121/message-page-media-queries-and-message-body
+    
+    reworked messaging page
+
+[33mcommit 92bf43288efabd05c8f1684cd6a5b6898693ae37[m
+Author: Quentin Chen <quentinchen2164@example.com>
+Date:   Thu Aug 15 17:55:13 2024 -0700
+
+    reworked messaging page
+
+[33mcommit cbc8109ec4f7e7f9add5b9301752127de1da5c73[m
+Author: Quentin Chen <quentinchen2164@example.com>
+Date:   Thu Aug 15 17:55:13 2024 -0700
+
+    reworked messaging page
+
+[33mcommit cc587e5ef54eae9b7c3bdd062e5c319befe4f30a[m
+Author: abdulrahman1121 <abdallrahmaelmi456@gmail.com>
+Date:   Wed Aug 14 12:38:28 2024 -0700
+
+    Change title of project and color of the names in the message body page
+
+[33mcommit 6584e76c909

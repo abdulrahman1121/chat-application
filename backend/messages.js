@@ -5,14 +5,19 @@ const router = express.Router();
 // Route to send a message
 router.post('/send', (req, res) => {
     const { senderId, receiverId, content } = req.body;
+    console.log('Message data:', req.body); // Add this to verify data is being receive
     sendMessage(senderId, receiverId, content)
         .then(() => res.status(200).send('Message sent successfull'))
-        .catch(error => res.status(500).send(error.message));
+        .catch(error => {
+            console.error('Error in /send route:', error);
+            res.status(500).send({ error: error.message }); // Send error to client
+        });
 });
 
 // Route to get messages between two user
 router.get('/get', (req, res) => {
     const { userId1, userId2 } = req.query;
+    console.log('Fetching messages between:', userId1, userId2); // Verify query parameters 
     getMessages(userId1, userId2)
         .then(messages => res.status(200).json(messages))
         .catch(error => res.status(500).send(error.message));

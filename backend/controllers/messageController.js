@@ -2,6 +2,7 @@ const { db } = require('../config/connect');
 const messagesRef = db.ref('messages');
 
 const sendMessage = async(senderId, receiverId, content) => {
+    console.log('sendMessage called with:', { senderId, receiverId, content });
     const messageId = messagesRef.push().key;
     const timestamp = Date.now();
 
@@ -18,8 +19,10 @@ const sendMessage = async(senderId, receiverId, content) => {
     try {
         await db.ref().update(updates);
         console.log("Message sent successfully");
+        return { success: true }; // Add success response
     } catch (error) {
         console.error('Error sending message:', error);
+        throw new Error('Failed to send message'); // Throw error for the caller to catch
     }
 };
 
