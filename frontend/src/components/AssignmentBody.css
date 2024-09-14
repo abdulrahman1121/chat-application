@@ -1,0 +1,42 @@
+.assignment-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #424040;
+    margin: 10px;
+    border-radius: 0px;
+    flex: 1;
+    min-width: 0;
+}
+
+.assignment-header {
+    align-items: center;
+    z-index: 1;
+    background-color: #424040;
+    display: flex;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-left: 20px;
+    height: 148px;
+    border-bottom: 2px solid #292929;
+}
+
+.assignment-header h2 {
+    flex-wrap: wrap; 
+    white-space: normal; 
+    word-wrap: break-word; 
+    overflow-wrap: break-word;
+}
+
+h2 {
+    color: white;
+}
+
+.assignment-content {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #363434;
+    height: 100%;
+}
+
+

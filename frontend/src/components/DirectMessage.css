@@ -21,6 +21,13 @@
     border-bottom: 2px solid #292929;
 }
 
+.assignment-header h1 {
+    flex-wrap: wrap; 
+    white-space: normal; 
+    word-wrap: break-word; 
+    overflow-wrap: break-word;
+}
+
 h1 {
     color: white;
 }
