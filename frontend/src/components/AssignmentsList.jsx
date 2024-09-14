@@ -1,19 +1,17 @@
-import './MessageBody.css'
-import AddCircleOutlinedIcon from '@mui/icons-material/AddCircleOutlined';
-import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
+import './AssignmentsList.css'
 
 export default function MessageBody() {
     return (
         <div id='messagebody'> 
             <div className='search-container'>
-                <input type='text' placeholder='Search messages' className='search-bar'/> 
+                <input type='text' placeholder='Search assignments' className='search-bar'/> 
             </div>
             <div className='messagebody-container'>
-                <div className='direct-message'>Sharanya</div>
-                <div className='direct-message'>Abdulrahman</div>
-                <div className='direct-message'>Sriman</div>
-                <div className='direct-message'>Umnia</div>
-                <div className='direct-message'>Nathan</div>
+                <div className='direct-message'>Adjust font size on direct messages</div>
+                <div className='direct-message'>Create database for messages</div>
+                <div className='direct-message'>Finish UI of messaging page</div>
+                <div className='direct-message'>Finish UI of landing page</div>
+                <div className='direct-message'>Design assignments page on Figma</div>
                 <div className='direct-message'>Testing</div>
                 <div className='direct-message'>Testing</div>
                 <div className='direct-message'>Testing</div>

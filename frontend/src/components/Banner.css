@@ -6,7 +6,14 @@
     height: max-content;
 }
 
-#banner-content {
+.banner-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: left;
     padding-left: 20px;
+}
+
+.codeday-logo {
+    height: 70px;
 }
