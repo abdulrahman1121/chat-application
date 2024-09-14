@@ -1,12 +1,20 @@
-import Navbar from '../components/Navbar'
-import Banner from '../components/Banner'
+import AssignmentsHeader from '../components/AssignmentsHeader';
+import AssignmentsList from '../components/AssignmentsList';
+import Navbar from '../components/Navbar';
+import AssignmentBody from '../components/AssignmentBody'
 import './AssignmentPage.css'
 
 export default function AssignmentPage() {
     return (
         <div id='assignment-page'>
             <Navbar />
-            <Banner title='Coding Assignments'/>
+            <div className='content'>
+                <div className="main-content">
+                    <AssignmentsHeader title={'Assignments'}/>
+                    <AssignmentsList />
+                </div>
+                <AssignmentBody />
+            </div>
         </div>
     )
 }

@@ -1,4 +1,17 @@
 #assignment-page {
     display: flex;
+    height: 100%;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.main-content {
+    display: flex;
     flex-direction: column;
+    width: 430px;
+    margin-left: 120px;
 }
