@@ -1,7 +1,7 @@
 const admin = require('firebase-admin');
 const fs = require('fs');
 // Path to service account file
-const serviceAccount = JSON.parse(fs.readFileSync('C:/Users/abdal/OneDrive/Documents/ChatWebsiteCodeDay/codeconnect-525cc-firebase-adminsdk-re7p3-e42d580081.json'));
+const serviceAccount = JSON.parse(fs.readFileSync('C:/Users/qqgoc/Desktop/codeconnect-525cc-firebase-adminsdk-re7p3-c87e7e4bb0.json'));
 
 
 // Initalize Firebase Admin

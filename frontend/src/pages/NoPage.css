@@ -1,0 +1,15 @@
+#no-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.error-message {
+    background-color: #ff686b;
+    padding: 10px;
+    border-radius: 6px;
+    height: fit-content;
+    width: fit-content;
+}

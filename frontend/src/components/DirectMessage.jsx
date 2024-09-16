@@ -1,7 +1,9 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './DirectMessage.css';
 import SendButton from './SendButton';
+import SendIcon from '@mui/icons-material/Send'
 import axios from 'axios';
+import { IconButton } from '@mui/material';
 
 export default function DirectMessage() {
     const [message, setMessage] = useState('');
@@ -63,9 +65,13 @@ export default function DirectMessage() {
 
     const SendButton = ({ onClick }) => {
         return (
-            <button onClick={onClick}>
-                Send
-            </button>
+            <IconButton 
+                sx={{ backgroundColor: '#292929', borderRadius:'10px', width: '80px'}}
+                aria-label='send'
+                onClick={onClick}
+            >   
+            <SendIcon sx={{color: '#54d94d'}}/>
+            </IconButton>
         );
     }
 
@@ -73,6 +79,10 @@ export default function DirectMessage() {
     useEffect(() => {
         fetchMessages();
     }, []);
+
+    useEffect(() => {
+        scrollToBottom();
+    }, [messages]);
 
 
     return (

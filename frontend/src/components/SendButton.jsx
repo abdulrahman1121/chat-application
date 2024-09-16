@@ -2,7 +2,7 @@ import React from 'react'
 import IconButton from '@mui/material/Button'
 import SendIcon from '@mui/icons-material/Send'
 
-export default function SendButton() {
+export default function SendMessageButton() {
     return(
         <IconButton 
             sx={{ backgroundColor: '#292929', borderRadius:'10px'}}

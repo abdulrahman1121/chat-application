@@ -37,8 +37,26 @@ h1 {
     flex-direction: column;
     padding: 20px;
     background-color: #363434;
-    height: 400px; /* Adjust as per your layout */
+    height: 100%; /* Adjust as per your layout */
     overflow-y: auto;
+}
+
+.direct-message-content::-webkit-scrollbar {
+    width: 10px;
+}
+
+.direct-message-content::-webkit-scrollbar-thumb {
+    background: #7a7a7a;
+    border-radius: 0px;
+}
+
+.direct-message-content::-webkit-scrollbar-thumb:hover {
+    background: #919090;
+    border-radius: 0px;
+}
+
+.direct-message-content::-webkit-scrollbar-track {
+    background: transparent;
 }
 
 .message-container {
