@@ -19,6 +19,8 @@ export default function DirectMessage() {
     const sendMessage = () => {
         if (message.trim() === '') return;
         
+        console.log('Send button clicked');  // Add this log
+
         console.log('Sending message:', { senderId, receiverId, content: message }); // Log message data
         
         api.post('/messages/send', {
@@ -42,6 +44,7 @@ export default function DirectMessage() {
             params: { userId1: senderId, userId2: receiverId },
         })
         .then(response => {
+            console.log('Messages from backend:', response.data); // Log the messages received
             const fetchedMessages = Array.isArray(response.data) ? response.data : []; // Ensure data is an array
             setMessages(fetchedMessages); // Update message state
             scrollToBottom(); // Scroll to the bottom when messages update
@@ -57,6 +60,14 @@ export default function DirectMessage() {
             messageContainerRef.current.scrollTop = messageContainerRef.current.scrollHeight;
         }
     };
+
+    const SendButton = ({ onClick }) => {
+        return (
+            <button onClick={onClick}>
+                Send
+            </button>
+        );
+    }
 
     // Fetch messages on component mount
     useEffect(() => {

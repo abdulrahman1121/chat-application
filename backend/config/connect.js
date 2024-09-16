@@ -11,6 +11,17 @@ admin.initializeApp({
 })
 
 const db = admin.database(); // initallize real time database
+const testRef = db.ref('test');
+testRef.set({
+    testMessage: "Hello, Firebase!"
+})
+.then(() => {
+    console.log("Test message written successfully");
+})
+.catch((error) => {
+    console.error("Error writing test message:", error);
+});
+
 
 
 module.exports = { admin, db };
